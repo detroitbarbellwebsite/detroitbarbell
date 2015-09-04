@@ -87,7 +87,9 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="images\2015_Stage.jpg" />
+    <Content Include="images\2015_Stage.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\2015_Stage_dark.jpg" />
     <Content Include="images\bench.jpg" />
     <Content Include="images\clay.jpg" />
@@ -99,7 +101,9 @@
     <Content Include="images\JJ.jpg" />
     <Content Include="images\jjdeadlift.jpg" />
     <Content Include="images\jjSquat.jpg" />
-    <Content Include="images\old_englishD.jpg" />
+    <Content Include="images\old_englishD.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\relentless-detroit.jpg" />
     <Content Include="images\relentless_barbell.jpg" />
     <Content Include="images\TeamHope.jpg" />
