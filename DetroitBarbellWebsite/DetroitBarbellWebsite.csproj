@@ -90,7 +90,9 @@
     <Content Include="images\2015_Stage.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\2015_Stage_dark.jpg" />
+    <Content Include="images\2015_Stage_dark.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\bench.jpg" />
     <Content Include="images\clay.jpg" />
     <Content Include="images\detroit_barbell_logo_2.jpg" />
