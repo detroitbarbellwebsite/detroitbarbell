@@ -99,7 +99,9 @@
     <Content Include="images\detroit_welcome_logo.png" />
     <Content Include="images\detroit_welcome_logo_2.png" />
     <Content Include="images\gym1.jpg" />
-    <Content Include="images\jakked1.jpg" />
+    <Content Include="images\jakked1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\JJ.jpg" />
     <Content Include="images\jjdeadlift.jpg" />
     <Content Include="images\jjSquat.jpg" />
