@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html data-ng-app="app">
 <head>
     <title></title>
     <meta charset="utf-8" />
@@ -39,78 +39,14 @@
             </div><!-- /.container-fluid -->
         </nav>
     </header>
-    <div class="container-fluid">
-        <!--added title row here-->
-        <section class="row title-row">
-            <div class="fill-screen steller-bg" 
-                 style="background-image: url(./images/2015_Stage_dark.jpg)"
-                 data-stellar-background-ratio="0.1">
-                <img class="img-responsive title-image" src="./images/detroit_welcome_logo_2.png" alt="Welcome to DBB" />
-                <div class="down-button">
-                    <a class="btn" href="#about">
-                        <i class="fa fa-arrow-circle-down fa-4x"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section id="about" class="row text-banner">
-            <h1 class="wow fadeInRight">About Us</h1>
-            <div class="about-element col-md-6">
-                <img class="img-rounded wow fadeInLeft" src="./images/jakked1.jpg" />
-            </div>
-            <div id="mission" class="about-element col-md-6 wow fadeInRight">
-                <h3>Our Mission</h3>
-                <p>Welcome to Detroit Barbell Strength Training Facility, or Detroit Barbell for short. Detroit Barbell is located just south of Detroit, Michigan. 
-                </p>
-                <p>
-                    The gym’s
-                    primary function is powerlifting, but accommodates the needs of any serious athlete. Detroit Barbell has all levels of lifters, from amateur to elite level pro powerlifters. 
-                </p>
-            </div>
-        </section>
-        <section class="row text-banner">
-            <h1 class="wow fadeInRight">Recent News</h1>
-            <!--need to adjust image size for when on mobile-->
-            <div class="about-element col-md-6 wow fadeInLeft">
-                <img class="img-polaroid" src="./images/Relentless-Detroit-Event.jpg" />
-            </div>
-            <div id="news" class="about-element col-md-6 wow fadeInRight">
-                <h3>Relentless Detroit</h3>
-                <p>
-                    Relentless Detroit is a U.P.A sanctioned powerlifting meet that consist of over 100 men and women competing in the bench, deadlift and squat for a total in their respective weight classes and Divisions.                   
-                </p>
-                <p>
-                    The event date is Friday November 6, 2015 beginning at 3pm and will last through the evening and will continue Saturday November 7th, 2015 beginning at 9am and will last all day.                
-                </p>
-            </div>
-        </section>
-        <!--<section class="row">
-            <div class="fill-screen fixed-attachment darken-gym-background-img">
-            </div>
-        </section>-->
-        <!--move to it's own page-->
-        <!--<section id="contact" class="row activity-section">
-            <h1>Contact Us</h1>
-            <div class="activity-element col-md-4">
-                <a href="#"><img src="../../images/jjdeadlift.jpg" /></a>
-                <h2>Jeremy "JJ" Thomas</h2>
-                <p>Owner</p>
-            </div>
-            <div class="activity-element col-md-4">
-                    <a href="#"><img src="../../images/clay.jpg" /></a>      
-                <h2>Clay Brandenburg</h2>
-                <p>Founder</p>
-            </div>
-            <div class="activity-element col-md-4">
-                <a href="#"><img src="../../images/old_englishD.jpg" /></a>
-                <h2>John Zemmin</h2>
-                <p>Founder</p>
-            </div>
-        </section>-->
-    </div>
+    <div data-ng-view></div>
     <footer class="container-fluid">
         <h1>Footer</h1>
     </footer>
+    <script src="./Scripts/angular.js"></script>
+    <script src="./Scripts/angular-route.js"></script>
+    <script src="./app/app.js"></script>
+    <script src="./app/controllers/DetroitMainController.js"></script>
     <script src="./Scripts/jquery-1.9.1.min.js"></script>
     <script src="./Scripts/bootstrap.min.js"></script>
     <script src="./Scripts/classie.js"></script>
