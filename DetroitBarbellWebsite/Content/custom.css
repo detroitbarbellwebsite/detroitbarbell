@@ -475,3 +475,7 @@ article {
 .wow {
     visibility: hidden;
 }
+
+.record-board{
+    margin: 30px; 
+}

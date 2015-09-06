@@ -1,46 +1,155 @@
 ﻿<div data-ng-controller="RecordBoardController" class="container-fluid">
-    <section class="row record-board">
-        <h1>Detroit Barbell All-Time Overall Records</h1>
-        <h2>Squat</h2>
-        <table id="recordboard" style="font-family: eraserregular;">
-            <thead>
-                <tr>
-                    <th>
-                        Lifter
-                    </th>
-                    <th>
-                        Male/Female
-                    </th>
-                    <th>
-                        Weight Class
-                    </th>
-                    <th>
-                        Record
-                    </th>
-                    <th>
-                        Raw/Equipped
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr data-ng-repeat="lifter in squatList">
-                    <td>
-                        {{lifter.Lifter}}
-                    </td>
-                    <td>
-                        {{lifter.Gender}}
-                    </td>
-                    <td>
-                        {{lifter.WeightClass}}
-                    </td>
-                    <td>
-                        {{lifter.Record}}
-                    </td>
-                    <td>
-                        {{lifter.RawOrEquipped}}
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <h1>Detroit Barbell All-Time Overall Records</h1>
+    <section class="row">
+        <div class="col-md-4  record-board">
+            <h2>Squat</h2>
+            <table id="SquatRecords" style="font-family: eraserregular;">
+                <thead>
+                    <tr>
+                        <th>
+                            Lifter
+                        </th>
+                        <th>
+                            Male/Female
+                        </th>
+                        <th>
+                            Weight Class
+                        </th>
+                        <th>
+                            Record
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-ng-repeat="lifter in squatList">
+                        <td>
+                            <a>{{lifter.Lifter}}</a>
+                        </td>
+                        <td>
+                            {{lifter.Gender}}
+                        </td>
+                        <td>
+                            {{lifter.WeightClass}}
+                        </td>
+                        <td>
+                            {{lifter.Record}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-4  col-md-push-1 record-board">
+            <h2>Bench</h2>
+            <table id="BenchRecords" style="font-family: eraserregular;">
+                <thead>
+                    <tr>
+                        <th>
+                            Lifter
+                        </th>
+                        <th>
+                            Male/Female
+                        </th>
+                        <th>
+                            Weight Class
+                        </th>
+                        <th>
+                            Record
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-ng-repeat="lifter in benchList">
+                        <td>
+                            <a>{{lifter.Lifter}}</a>
+                        </td>
+                        <td>
+                            {{lifter.Gender}}
+                        </td>
+                        <td>
+                            {{lifter.WeightClass}}
+                        </td>
+                        <td>
+                            {{lifter.Record}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="row">
+        <div class="col-md-4 record-board">
+            <h2>Deadlift</h2>
+            <table id="DeadliftRecords" style="font-family: eraserregular;">
+                <thead>
+                    <tr>
+                        <th>
+                            Lifter
+                        </th>
+                        <th>
+                            Male/Female
+                        </th>
+                        <th>
+                            Weight Class
+                        </th>
+                        <th>
+                            Record
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-ng-repeat="lifter in deadliftList">
+                        <td>
+                            <a>{{lifter.Lifter}}</a>
+                        </td>
+                        <td>
+                            {{lifter.Gender}}
+                        </td>
+                        <td>
+                            {{lifter.WeightClass}}
+                        </td>
+                        <td>
+                            {{lifter.Record}}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4 col-md-push-1 record-board">
+            <h2>Total</h2>
+            <table id="TotalRecords" style="font-family: eraserregular;">
+                <thead>
+                    <tr>
+                        <th>
+                            Lifter
+                        </th>
+                        <th>
+                            Male/Female
+                        </th>
+                        <th>
+                            Weight Class
+                        </th>
+                        <th>
+                            Record
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-ng-repeat="lifter in totalList">
+                        <td>
+                            <a>{{lifter.Lifter}}</a>
+                        </td>
+                        <td>
+                            {{lifter.Gender}}
+                        </td>
+                        <td>
+                            {{lifter.WeightClass}}
+                        </td>
+                        <td>
+                            {{lifter.Record}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 </div>
