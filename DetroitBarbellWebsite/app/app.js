@@ -12,6 +12,9 @@
             .when("/contact", {
                 templateUrl: "./app/partials/contact.html"
             })
+            .when("/recordboard", {
+                templateUrl: "./app/partials/recordboard.html"
+            })
             .otherwise({ rediectTo: "/" });
     })
 
