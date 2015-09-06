@@ -3,6 +3,7 @@
  */
 
 /**
+edit
  * @summary     DataTables
  * @description Paginate, search and order HTML tables
  * @version     1.10.9
