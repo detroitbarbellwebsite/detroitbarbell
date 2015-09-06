@@ -1,8 +1,8 @@
-﻿<div data-ng-controller="RecordBoardController" class="container-fluid" data-ng-init="initDataTable()">
+﻿<div data-ng-controller="RecordBoardController" class="container-fluid">
     <section class="row record-board">
         <h1>Detroit Barbell All-Time Overall Records</h1>
         <h2>Squat</h2>
-        <table id="recordboard">
+        <table id="recordboard" style="font-family: eraserregular;">
             <thead>
                 <tr>
                     <th>
@@ -23,38 +23,21 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr data-ng-repeat="lifter in squatList">
                     <td>
-                        LifterLongFirstName OneLongLastName
+                        {{lifter.Lifter}}
                     </td>
                     <td>
-                        Male
+                        {{lifter.Gender}}
                     </td>
                     <td>
-                        308 lbs
+                        {{lifter.WeightClass}}
                     </td>
                     <td>
-                        1000 lbs
+                        {{lifter.Record}}
                     </td>
                     <td>
-                        Equipped
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Lifter Two
-                    </td>
-                    <td>
-                        Male
-                    </td>
-                    <td>
-                        308 lbs
-                    </td>
-                    <td>
-                        1000 lbs
-                    </td>
-                    <td>
-                        Raw
+                        {{lifter.RawOrEquipped}}
                     </td>
                 </tr>
             </tbody>
