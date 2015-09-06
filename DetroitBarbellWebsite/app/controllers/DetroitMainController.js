@@ -31,7 +31,7 @@
         $scope.goToAbout = function () {
             // set the location.hash to the id of
             // the element you wish to scroll to.
-            $location.hash('about');
+            $location.hash('news');
 
             // call $anchorScroll()
             $anchorScroll.yOffset = 100; 

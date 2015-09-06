@@ -93,6 +93,14 @@ We are using this override the class*/
     position: relative;
 }
 
+.news-banner{
+   text-align: center;
+    margin: 50px;
+    background: black;
+    color: white;
+    box-shadow: 6px 6px 8px #777;
+}
+
 /*.fixed-attachment div section div {
         position: absolute;
         padding: 20px;
