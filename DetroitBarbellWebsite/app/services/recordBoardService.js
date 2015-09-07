@@ -39,21 +39,21 @@
         };
 
         var getDeadliftRecordData = function () {
-            var json = [{ "Lifter": "Beth Thomas", "Gender": "Female", "WeightClass": "132", "Record": 264 },
-{ "Lifter": "Wes McCormick", "Gender": "Male", "WeightClass": "148", "Record": 451 },
-{ "Lifter": "Tracey Patrick", "Gender": "Female", "WeightClass": "148", "Record": 355 },
-{ "Lifter": "Dave", "Gender": "Male", "WeightClass": "165", "Record": 465 },
-{ "Lifter": "Shelly Brandenburg", "Gender": "Female", "WeightClass": "165", "Record": 254 },
-{ "Lifter": "Tim Hensley", "Gender": "Male", "WeightClass": "181", "Record": 650 },
-{ "Lifter": "Kristy", "Gender": "Female", "WeightClass": "181", "Record": 250 },
-{ "Lifter": "Tim Hensley", "Gender": "Male", "WeightClass": "198", "Record": 760 },
-{ "Lifter": "Kristy", "Gender": "Female", "WeightClass": "198", "Record": 225 },
-{ "Lifter": "John Zemmin", "Gender": "Male", "WeightClass": "220", "Record": 730 },
-{ "Lifter": "John Zemmin", "Gender": "Male", "WeightClass": "242", "Record": 740 },
-{ "Lifter": "John Zemmin", "Gender": "Male", "WeightClass": "275", "Record": 843 },
-{ "Lifter": "Mike", "Gender": "Male", "WeightClass": "308", "Record": 815 },
-{ "Lifter": "Clay Bradenburg", "Gender": "Male", "WeightClass": "SHW", "Record": 931 },
-{ "Lifter": "Kristy", "Gender": "Female", "WeightClass": "SHW", "Record": 425 }]
+            var json = [{ "Lifter": "Beth Thomas", "Gender": "Female", "WeightClass": "132", "Record": 391 },
+{ "Lifter": "Marc Tejero", "Gender": "Male", "WeightClass": "148", "Record": 595 },
+{ "Lifter": "Tracey Patrick", "Gender": "Female", "WeightClass": "148", "Record": 430 },
+{ "Lifter": "Marc Tejero", "Gender": "Male", "WeightClass": "165", "Record": 605 },
+{ "Lifter": "Kristy", "Gender": "Female", "WeightClass": "165", "Record": 405 },
+{ "Lifter": "Tony Butson", "Gender": "Male", "WeightClass": "181", "Record": 585 },
+{ "Lifter": "Kristy", "Gender": "Female", "WeightClass": "181", "Record": 405 },
+{ "Lifter": "JJ Thomas", "Gender": "Male", "WeightClass": "198", "Record": 705 },
+{ "Lifter": "Kristy", "Gender": "Female", "WeightClass": "198", "Record": 465 },
+{ "Lifter": "JJ Thomas", "Gender": "Male", "WeightClass": "220", "Record": 715 },
+{ "Lifter": "Dean", "Gender": "Male", "WeightClass": "242", "Record": 760 },
+{ "Lifter": "Kevin Smith", "Gender": "Male", "WeightClass": "275", "Record": 745 },
+{ "Lifter": "Craig", "Gender": "Male", "WeightClass": "308", "Record": 766 },
+{ "Lifter": "Craig", "Gender": "Male", "WeightClass": "SHW", "Record": 755 },
+{ "Lifter": "Kristy", "Gender": "Female", "WeightClass": "SHW", "Record": 469 }]
 
             return json;
         };
