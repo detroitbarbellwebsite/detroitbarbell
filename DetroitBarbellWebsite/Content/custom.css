@@ -475,9 +475,26 @@ article {
 .wow {
     visibility: hidden;
 }
-
+.record-Header{
+    font-family: eraserregular; 
+    color: white;
+    margin: 30px; 
+}
 .record-board{
     margin: 30px; 
+}
+.record-board label{
+    font-family: eraserregular;
+    color: white; 
+}
+
+.record-board table{
+    font-family: eraserregular; 
+}
+
+.record-board h2{
+    font-family: eraserregular; 
+    color: white;
 }
 
 table.dataTable {
