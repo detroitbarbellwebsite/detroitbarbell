@@ -479,3 +479,31 @@ article {
 .record-board{
     margin: 30px; 
 }
+
+table.dataTable {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  border-collapse: separate;
+  box-shadow: 6px 6px 8px #777;
+  border-spacing: 0;  /*
+   * Header and footer styles
+   */
+  /*
+   * Body styles
+   */
+  /*edit*/
+}
+table.dataTable thead th,
+table.dataTable tfoot th {
+  font-weight: bold;
+  background: black; 
+  color: white; 
+}
+table.dataTable tbody th,
+table.dataTable tbody td {
+  padding: 8px 10px;
+  background: black; 
+  color: white; 
+  border: 1px solid white;
+}

@@ -14,7 +14,7 @@
 
         $timeout(function () {
             $('#SquatRecords').dataTable({
-                "order": [[2, "asc"]],
+                "aaSorting": [[2, "asc"], [1, "desc"]],
                 "paging": false
             });
 

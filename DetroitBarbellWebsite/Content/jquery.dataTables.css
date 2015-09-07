@@ -6,8 +6,8 @@ table.dataTable {
   margin: 0 auto;
   clear: both;
   border-collapse: separate;
-  border-spacing: 0;
-  /*
+  box-shadow: 6px 6px 8px #777;
+  border-spacing: 0;  /*
    * Header and footer styles
    */
   /*
@@ -18,6 +18,8 @@ table.dataTable {
 table.dataTable thead th,
 table.dataTable tfoot th {
   font-weight: bold;
+  background: black; 
+  color: white; 
 }
 table.dataTable thead th,
 table.dataTable thead td {
@@ -71,6 +73,9 @@ table.dataTable tbody tr.selected {
 table.dataTable tbody th,
 table.dataTable tbody td {
   padding: 8px 10px;
+  background: black; 
+  color: white; 
+  border: 1px solid white;
 }
 table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
   border-top: 1px solid #ddd;
