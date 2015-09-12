@@ -78,6 +78,7 @@
     <Content Include="Content\jquery.dataTables.min.css" />
     <Content Include="fonts\EraserRegular-webfont.svg" />
     <Content Include="images\blackboard-background.jpg" />
+    <Content Include="images\d.jpg" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\squatbanner.jpg" />
     <Content Include="images\Relentless-Detroit-Event.jpg" />
