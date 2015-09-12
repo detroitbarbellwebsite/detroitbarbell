@@ -526,3 +526,21 @@ table.dataTable {
         color: white;
         border: 1px solid white;
     }
+
+/*About Us CSS*/
+.about-us {
+}
+
+    .about-us img {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+.img-center {
+	margin: 0 auto;
+}
+
+.our-team img{
+    width: 200px;
+    height: 200px; 
+}

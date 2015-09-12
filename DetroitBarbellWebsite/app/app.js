@@ -9,11 +9,14 @@
             .when("/home", {
                 templateUrl: "./app/partials/home.html"
             })
-            .when("/contact", {
-                templateUrl: "./app/partials/contact.html"
+            .when("/about", {
+                templateUrl: "./app/partials/about.html"
             })
             .when("/recordboard", {
                 templateUrl: "./app/partials/recordboard.html"
+            })
+            .when("/contact", {
+                templateUrl: "./app/partials/contact.html"
             })
             .otherwise({ rediectTo: "/" });
     })
