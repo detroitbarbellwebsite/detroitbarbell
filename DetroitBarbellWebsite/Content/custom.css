@@ -502,7 +502,6 @@ table.dataTable {
     margin: 0 auto;
     clear: both;
     border-collapse: separate;
-    box-shadow: 6px 6px 8px #777;
     border-spacing: 0; /*
    * Header and footer styles
    */

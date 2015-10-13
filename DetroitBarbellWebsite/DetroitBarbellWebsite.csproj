@@ -71,6 +71,7 @@
     <Content Include="app\controllers\RecordBoardController.js" />
     <Content Include="app\partials\about.html" />
     <Content Include="app\partials\contact.html" />
+    <Content Include="app\partials\forum.html" />
     <Content Include="app\partials\home.html" />
     <Content Include="app\partials\recordboard.html" />
     <Content Include="app\services\recordBoardService.js" />
@@ -79,11 +80,13 @@
     <Content Include="Content\jquery.dataTables.css" />
     <Content Include="Content\jquery.dataTables.min.css" />
     <Content Include="fonts\EraserRegular-webfont.svg" />
+    <Content Include="images\Black-Background.jpg" />
     <Content Include="images\blackboard-background.jpg" />
     <Content Include="images\Clay_About.jpg" />
     <Content Include="images\d.jpg" />
     <Content Include="images\detroitbarbell_landscape.jpg" />
     <Content Include="images\favicon.ico" />
+    <Content Include="images\Grey-background.jpg" />
     <Content Include="images\JJ_About.jpg" />
     <Content Include="images\squatbanner.jpg" />
     <Content Include="images\Relentless-Detroit-Event.jpg" />

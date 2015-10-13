@@ -15,6 +15,9 @@
             .when("/recordboard", {
                 templateUrl: "./app/partials/recordboard.html"
             })
+            .when("/forum", {
+                templateUrl: "./app/partials/forum.html"
+            })
             .when("/contact", {
                 templateUrl: "./app/partials/contact.html"
             })
